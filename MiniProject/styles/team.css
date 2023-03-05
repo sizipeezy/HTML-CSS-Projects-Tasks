@@ -1,0 +1,37 @@
+#team .teamMember img {
+    width: 70%;
+    overflow: auto;
+}
+
+#team {
+    padding: 64px 1rem;
+}
+
+#team .title {
+    text-align: center;
+}
+
+#team .teamMember .contacts{
+    color: black;
+}
+
+#team .teamMember{
+    width: 300px;
+}   
+
+#team .teamMember .poster{
+    width: 100%;
+}
+
+#team .teamMember .info{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    text-align: center;
+}
+
+#team .teamMember .contacts li{
+    display: inline-block;
+    margin-right: 12px;
+}
